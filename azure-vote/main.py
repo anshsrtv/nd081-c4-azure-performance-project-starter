@@ -18,7 +18,7 @@ from opencensus.ext.flask.flask_middleware import FlaskMiddleware
 
 app = Flask(__name__)
 
-InstrumentationKey = 'InstrumentationKey=72828773-edc8-4f60-92d4-9242fd10544b;IngestionEndpoint=https://westus2-2.in.applicationinsights.azure.com/'
+InstrumentationKey = 'InstrumentationKey=a202b8f3-b5d3-4e25-930c-83db8b15784b;IngestionEndpoint=https://westus2-2.in.applicationinsights.azure.com/'
 # Metrics
 exporter = metrics_exporter.new_metrics_exporter(
   enable_standard_metrics=True,
